@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class MatchUpEntryModel
     {
         /// <summary>
-        /// Represents one team in the macthup.
+        /// Represents one team in the matchup.
         /// </summary>
         public TeamModel TeamCompeting { get; set; }
 
